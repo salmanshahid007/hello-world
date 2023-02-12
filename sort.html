@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1> sorting data </h1>
+
+<div class="btns">
+    <button id="priceBtn" data-id="price" class="filter-btn"> sort by price</button>
+    <button id="discountBtn" data-id="discountPercentage" class="filter-btn"> sort by discounted Percentage</button>
+    <button id="ratingBtn"data-id="rating" class="filter-btn"> sort by rating</button>
+    <!--<button id="stockBtn" data-id="stock" class="filter-btn"> sort by stock </button> -->
+    <button id="resetBtn"data-id="reset" class="filter-btn"> reset </button>
+</div>    
+
+<div id="btnContainer" class="btnsCl"> </div>
+
+<div class="inputTarget">
+ <h4> search products by category : </h4>
+ <form>
+ <input id="inputEl"> 
+ </form> 
+ <button onclick="compare()"> enter </button>
+</div>  
+
+<div id="root" class="tableData">   
+<!--<table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>z
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+--> 
+</div>
+
+
+<script src="productsTable.js"> </script>
+</body>
+</html>
+
+
+
+
